@@ -2,7 +2,8 @@
 Trabalho Programação Avançada 4° semestre UNIJUAZEIRO
 
 
-Link do repositório: 
+Link do repositório: https://github.com/Azinth/trabProgramacaoAvancada.git
+
 Descrições de configuração necessária:
   
   fazer a importação do cod na IDE NetBeans;
