@@ -153,8 +153,8 @@ public class ProductRepositoryMySQL implements ProductRepository {
 			prepStmt = con.prepareStatement(sql);
 			prepStmt.setString(1, product.getProductName());
 			prepStmt.setString(2, product.getCategoria());
-			prepStmt.setString(3, product.getValidade());
-			prepStmt.setString(4, product.getFabricacao());
+			prepStmt.setString(3, product.getFabricacao());
+			prepStmt.setString(4, product.getValidade());
 			prepStmt.setInt(5, product.getId());
 			prepStmt.executeUpdate();
 			prepStmt.close();
